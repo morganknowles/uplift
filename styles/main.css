@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+body {
+  background-color: #F4EEC3;
+  color: #3D405B;
+  font: "Source Sans Pro", sans-serif; }
+
+header img {
+  width: 20%;
+  margin: 4% 0 0 4%; }
+
+form {
+  margin: 5%; }
+  @media only screen and (min-width: 1024px) {
+    form {
+      width: 50%; } }
+
+label {
+  margin: 2%;
+  float: left; }
+  @media only screen and (min-width: 425px) {
+    label {
+      display: inline-block;
+      clear: both; } }
+
+input {
+  margin: 2%;
+  width: 100%; }
+  @media only screen and (min-width: 425px) {
+    input {
+      display: inline-block;
+      max-width: 45%;
+      float: right; } }
+
+select {
+  margin: 2%;
+  width: 100%; }
+  @media only screen and (min-width: 425px) {
+    select {
+      max-width: 45%;
+      float: right; } }
+
+textarea {
+  width: 100%;
+  margin: 2%; }
+
+.error {
+  background-color: #f27b7b; }
+
+/*# sourceMappingURL=main.css.map */

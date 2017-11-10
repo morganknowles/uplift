@@ -1,0 +1,10 @@
+$mobile-s : '(max-width: 320px)'
+$mobile-l : '(min-width: 425px)'
+$tablet: '(min-width: 768px)'
+$laptop-s: '(min-width: 1024px)'
+$laptop-l: '(min-width: 1440px)'
+$fourk: '(min-width: 2560px)'
+
+@mixin respond-to($media) 
+	@media only screen and #{$media}
+		@content
